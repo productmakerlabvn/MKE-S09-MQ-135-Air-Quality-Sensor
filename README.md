@@ -1,21 +1,21 @@
-# Cảm biến khí MKE-S08 MQ-2 Gas Sensor
+# Cảm biến chất lượng không khí MKE-S09 MQ-135 Air Quality Sensor
 
 ## Giới thiệu
 
-Cảm biến khí MKE-S08 MQ-2 Gas Sensor được sử dụng để đo nồng độ khí gas (LPG/CO/CH4) của môi trường không khí, cảm biến trả ra giá trị điện áp Analog tuyến tính tương ứng với nồng độ khí gas (LPG/CO/CH4) trong không khí giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
+Cảm biến chất lượng không khí MKE-S09 MQ-135 Air Quality Sensor được sử dụng để đo nồng độ các khí: NH3,NOx, alcohol, Benzene, khói,CO2 ,...giúp bạn xác định được chất lượng không khí của môi trường, cảm biến trả ra giá trị điện áp Analog tuyến tính tương ứng với nồng độ các khí đo được trong không khí giúp bạn có thể ghi nhận và xử lý thông tin một cách chính xác nhất, ngoài ra cảm biến còn được bổ sung các thiết kế ổn định, chống nhiễu.
 
-Cảm biến khí MKE-S08 MQ-2 Gas Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
+Cảm biến chất lượng không khí MKE-S09 MQ-135 Air Quality Sensor thuộc hệ sinh thái phần cứng Robotics MakerEdu nên có thể sử dụng trực tiếp an toàn với các mạch điều khiển trung tâm ở cả hai mức điện áp 3.3VDC và 5VDC như: Arduino, Raspberry Pi, Jetson Nano, Micro:bit,....với chuẩn kết nối Connector XH2.54 thông dụng.
 
 ## Nguyên lý hoạt động
 
-Cảm biến khí MKE-S08 MQ-2 Gas Sensor được thiết kế dựa trên cảm biến MQ-2 là một loại Chemiresistors (tạm dịch là điện trở hóa học), để tham khảo nguyên lý hoạt động của cảm biến xin tham bảo bài viết: [Cấu tạo và nguyên lý hoạt dộng của các loại cảm biến MQ.
+Cảm biến chất lượng không khí MKE-S09 MQ-135 Air Quality Sensor được thiết kế dựa trên cảm biến MQ-135 là một loại Chemiresistors (tạm dịch là điện trở hóa học), để tham khảo nguyên lý hoạt động của cảm biến xin tham bảo bài viết: [Cấu tạo và nguyên lý hoạt dộng của các loại cảm biến MQ.
 ](https://www.makerlab.vn/cau-tao-va-nguyen-ly-hoat-dong-cua-cac-loai-cam-bien-mq/)
 
 ## Thông số kỹ thuật
 
-- Model: MKE-S08
-- Cảm biến chính: MQ-2 Gas sensor.
-- Đo nồng độ khí gas (LPG/CO/CH4) trong môi trường không khí.
+- Model: MKE-S09
+- Cảm biến chính: MQ-135 Air Quality Sensor.
+- Đo nồng độ các khí: NH3,NOx, alcohol, Benzene, khói,CO2 ,...giúp bạn xác định được chất lượng không khí của môi trường.
 - Điện áp hoạt động: 5VDC
 - Chuẩn giao tiếp: Analog
 - Điện áp giao tiếp: 0~3.3VDC
@@ -26,13 +26,13 @@ Cảm biến khí MKE-S08 MQ-2 Gas Sensor được thiết kế dựa trên cả
 
 ## Hình ảnh sản phẩm
 
-![MKE_S08](/image/MKE_S08_1.jpeg)
+![MKE_S09](/image/MKE_S09_1.jpeg)
 
-![MKE_S08](/image/MKE_S08_2.jpg)
+![MKE_S09](/image/MKE_S09_2.jpg)
 
 ## Kích thước sản phẩm
 
-![MKE_S08](/image/MKE_S08_3.jpg)
+![MKE_S09](/image/MKE_S09_3.jpg)
 
 ## Các chân tín hiệu
 
@@ -64,7 +64,7 @@ Cảm biến khí MKE-S08 MQ-2 Gas Sensor được thiết kế dựa trên cả
 [Hướng dẫn cài đặt phần mềm, nạp chương trình, cài đặt bộ thư viện Arduino cơ bản.](https://github.com/makerlabvn/Arduino-Vietduino)
 - Tải và cài đặt [phần mềm Arduino tại đây.](https://www.arduino.cc/en/software)
 - Trong Tools / Library Manager, tìm và cài đặt bộ thư viện tổng hợp "MAKERLABVN" by MakerLab.vn
-- Mở chương trình mẫu "MKE_S08_MQ2_LCD_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_S08_MQ2 hoặc [tải chương trình mẫu tại đây](/arduino)
+- Mở chương trình mẫu "MKE_S09_MQ135_LCD_Serial.ino" tại File / Examples / MAKERLABVN / Sensor / MKE_S09_MQ135 hoặc [tải chương trình mẫu tại đây](/arduino)
 - Chọn board là Arduino Uno (mạch Vietduino Uno tương thích với Arduino Uno), chọn đúng cổng COM Port của mạch và tiến hành nạp chương trình.
 - Kết nối mạch Vietduino Uno với MakerEdu Shield, kết nối cảm biến tại cổng [A1] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, cấp nguồn qua cổng USB của Vietduino Uno để thấy chương trình hoạt động.
 
@@ -81,7 +81,7 @@ Cảm biến khí MKE-S08 MQ-2 Gas Sensor được thiết kế dựa trên cả
 ### Hướng dẫn lập trình với Micro:bit (kéo thả khối)
 [Hướng dẫn nạp chương trình, cài đặt Extension Micro:bit cơ bản.](https://github.com/makerlabvn/MakeCode-microbit)
 - Khởi động phần mềm MakeCode tại: [https://makecode.microbit.org/](https://makecode.microbit.org/)
-- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s08-mq-2-gas-sensor](https://github.com/devmakerlabvn/makecode-mke-s08-mq-2-gas-sensor)
+- Chọn My Projects / Import / Import URL theo đường link của chương trình mẫu: [https://github.com/devmakerlabvn/makecode-mke-s09-mq-135-air-quality-sensor](https://github.com/devmakerlabvn/makecode-mke-s09-mq-135-air-quality-sensor)
 - Kết nối Micro:bit với máy tính và nạp chương trình.
 - Kết nối mạch Micro:bit với MakerEdu Shield, kết nối cảm biến tại cổng [P0] và màn hình LCD vào cổng [I2C] trên MakerEdu Shield, **cấp nguồn qua cổng USB của MakerEdu Shield** để thấy chương trình hoạt động.
 
